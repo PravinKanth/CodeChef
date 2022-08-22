@@ -1,0 +1,12 @@
+a=int(input())
+for _ in range(a):
+    b=list(map(int,input().split()))
+    if ((b[0]+b[1])/2)<35:
+        print("Fail")
+    elif ((b[0]+b[2])/2)<35:
+        print("Fail") 
+    elif ((b[1]+b[2])/2)<35:
+        print("Fail") 
+    else:
+        print("Pass")
+    
